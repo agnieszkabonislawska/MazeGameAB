@@ -1,4 +1,4 @@
-﻿Log file open, 10/13/20 01:07:46
+﻿Log file open, 10/20/20 14:21:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MazeGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.341849
+LogStats: Stats thread started at 1.572380
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.202s to configure plugins.
+LogStreaming: Display: Took  0.233s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,468 +147,203 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.071s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.10.12-23.07.47:286][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.12-23.07.47:286][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.12-23.07.47:367][  0]LogHAL: Display: Platform has ~ 8 GB [8445386752 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.12-23.07.47:367][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2020.10.12-23.07.47:367][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.12-23.07.47:368][  0]LogInit: Computer: DESKTOP-RHMTELH
-[2020.10.12-23.07.47:368][  0]LogInit: User: belee
-[2020.10.12-23.07.47:368][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.10.12-23.07.47:368][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.12-23.07.47:368][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.10.12-23.07.47:368][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.12-23.07.47:369][  0]LogMemory: Process Physical Memory: 101.79 MB used, 101.79 MB peak
-[2020.10.12-23.07.47:369][  0]LogMemory: Process Virtual Memory: 90.10 MB used, 90.10 MB peak
-[2020.10.12-23.07.47:369][  0]LogMemory: Physical Memory: 7490.32 MB used,  563.82 MB free, 8054.15 MB total
-[2020.10.12-23.07.47:369][  0]LogMemory: Virtual Memory: 4609.36 MB used,  563.82 MB free, 134217728.00 MB total
-[2020.10.12-23.07.47:504][  0]LogInit: Using OS detected language (pl-PL).
-[2020.10.12-23.07.47:504][  0]LogInit: Using OS detected locale (pl-PL).
-[2020.10.12-23.07.47:505][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2020.10.12-23.07.47:510][  0]LogStreaming: Display: Took  0.006s to InitEngineTextLocalization.
-[2020.10.12-23.07.47:510][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.12-23.07.47:559][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.12-23.07.47:559][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.12-23.07.49:215][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.12-23.07.49:215][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.12-23.07.49:392][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2020.10.12-23.07.49:392][  0]LogD3D11RHI:       4021/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.10.12-23.07.49:410][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.10.12-23.07.49:411][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.10.12-23.07.49:415][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.12-23.07.49:415][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.12-23.07.49:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.12-23.07.49:468][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.12-23.07.49:469][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2020.10.12-23.07.49:469][  0]LogWindows: EnumDisplayDevices:
-[2020.10.12-23.07.49:469][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.10.12-23.07.49:469][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.10.12-23.07.49:470][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.10.12-23.07.49:470][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.10.12-23.07.49:470][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2020.10.12-23.07.49:470][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.10.12-23.07.49:470][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.10.12-23.07.49:470][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2020.10.12-23.07.49:554][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.12-23.07.49:584][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.10.12-23.07.49:586][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../GitHub/MazeGame/Intermediate/Shaders/WorkingDirectory/12088/).
-[2020.10.12-23.07.49:586][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/belee/AppData/Local/Temp/UnrealShaderWorkingDir/32D60D384643C61C8AE130BCB65159A2/'.
-[2020.10.12-23.07.50:322][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.10.12-23.07.50:337][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.10.12-23.07.50:354][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.10.12-23.07.50:373][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.10.12-23.07.50:389][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.10.12-23.07.50:404][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.10.12-23.07.50:464][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.10.12-23.07.50:500][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.10.12-23.07.50:550][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.12-23.07.50:661][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.10.12-23.07.50:734][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.10.12-23.07.50:734][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.10.12-23.07.50:759][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.10.12-23.07.50:759][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.10.12-23.07.50:775][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.10.12-23.07.50:789][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.10.12-23.07.50:855][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.10.12-23.07.50:876][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.10.12-23.07.50:888][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.10.12-23.07.50:889][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.12-23.07.51:067][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.12-23.07.51:067][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.12-23.07.51:067][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.12-23.07.52:425][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.12-23.07.52:988][  0]LogDerivedDataCache: Loaded boot cache 0.56s 87MB C:/Users/belee/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.10.12-23.07.52:989][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/belee/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2020.10.12-23.07.52:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/MazeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.12-23.07.52:989][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.12-23.07.52:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/MazeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.12-23.07.52:989][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.12-23.07.53:008][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.12-23.07.53:021][  0]LogDerivedDataCache: Using Local data cache path C:/Users/belee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.12-23.07.53:021][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.12-23.07.53:021][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.12-23.07.53:050][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.10.12-23.07.53:052][  0]LogSlate: Using FreeType 2.6.0
-[2020.10.12-23.07.53:056][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.12-23.07.53:295][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
-[2020.10.12-23.07.53:752][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.12-23.07.53:843][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.10.12-23.07.53:852][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.10.12-23.07.53:852][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.12-23.07.53:852][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.12-23.07.53:852][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.10.12-23.07.53:969][  0]LogNetVersion: MazeGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 803854447)
-[2020.10.12-23.07.54:971][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.188020 seconds
-[2020.10.12-23.07.54:981][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2020.10.12-23.07.54:982][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2020.10.12-23.07.54:982][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.12-23.08.09:044][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.12-23.08.09:092][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.12-23.08.10:681][  0]SourceControl: Source control is disabled
-[2020.10.12-23.08.10:681][  0]SourceControl: Source control is disabled
-[2020.10.12-23.08.10:719][  0]SourceControl: Source control is disabled
-[2020.10.12-23.08.10:727][  0]SourceControl: Source control is disabled
-[2020.10.12-23.08.12:362][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.12-23.08.12:819][  0]LogOcInput: OculusInput pre-init called
-[2020.10.12-23.08.13:235][  0]LogEngine: Initializing Engine...
-[2020.10.12-23.08.13:236][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.12-23.08.13:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.10.12-23.08.13:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.10.12-23.08.13:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.10.12-23.08.13:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.10.12-23.08.13:526][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.12-23.08.13:657][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.12-23.08.13:700][  0]LogInit: XAudio2 using 'Słuchawki (P-Phonak aparat słuchowy Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2020.10.12-23.08.14:529][  0]LogInit: FAudioDevice initialized.
-[2020.10.12-23.08.14:529][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.12-23.08.14:699][  0]LogDerivedDataCache: Saved boot cache 0.17s 87MB C:/Users/belee/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.10.12-23.08.14:706][  0]LogInit: Texture streaming: Enabled
-[2020.10.12-23.08.14:813][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.12-23.08.14:845][  0]LogInit: Transaction tracking system initialized
-[2020.10.12-23.08.14:998][  0]BlueprintLog: New page: Editor Load
-[2020.10.12-23.08.16:250][  0]LocalizationService: Localization service is disabled
-[2020.10.12-23.08.18:345][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Content/' took 0.01s
-[2020.10.12-23.08.18:345][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.12-23.08.18:346][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.12-23.08.18:347][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.10.12-23.08.18:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.10.12-23.08.18:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.10.12-23.08.18:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.10.12-23.08.18:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.10.12-23.08.20:797][  0]SourceControl: Source control is disabled
-[2020.10.12-23.08.21:020][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/unreal/UE_4.20/FeaturePacks/StarterContent.upack)
-[2020.10.12-23.08.21:329][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2020.10.12-23.08.21:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2020.10.12-23.08.21:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2020.10.12-23.08.21:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2020.10.12-23.08.21:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2020.10.12-23.08.21:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2020.10.12-23.08.21:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2020.10.12-23.08.21:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2020.10.12-23.08.21:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2020.10.12-23.08.21:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2020.10.12-23.08.21:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2020.10.12-23.08.21:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2020.10.12-23.08.21:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Collapse01.uasset"
-[2020.10.12-23.08.21:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Collapse02.uasset"
-[2020.10.12-23.08.21:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2020.10.12-23.08.22:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Explosion01.uasset"
-[2020.10.12-23.08.22:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Explosion02.uasset"
-[2020.10.12-23.08.22:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2020.10.12-23.08.22:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Fire01.uasset"
-[2020.10.12-23.08.22:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2020.10.12-23.08.22:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2020.10.12-23.08.22:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2020.10.12-23.08.22:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Light01.uasset"
-[2020.10.12-23.08.22:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2020.10.12-23.08.22:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Light02.uasset"
-[2020.10.12-23.08.22:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2020.10.12-23.08.22:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Smoke01.uasset"
-[2020.10.12-23.08.22:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2020.10.12-23.08.22:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2020.10.12-23.08.22:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2020.10.12-23.08.23:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2020.10.12-23.08.23:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2020.10.12-23.08.23:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2020.10.12-23.08.23:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2020.10.12-23.08.23:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Steam01.uasset"
-[2020.10.12-23.08.23:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2020.10.12-23.08.23:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2020.10.12-23.08.23:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2020.10.12-23.08.23:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2020.10.12-23.08.23:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2020.10.12-23.08.23:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2020.10.12-23.08.23:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2020.10.12-23.08.23:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2020.10.12-23.08.23:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2020.10.12-23.08.23:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2020.10.12-23.08.23:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2020.10.12-23.08.23:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2020.10.12-23.08.23:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2020.10.12-23.08.23:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2020.10.12-23.08.23:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2020.10.12-23.08.23:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2020.10.12-23.08.23:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2020.10.12-23.08.24:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2020.10.12-23.08.24:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../GitHub/MazeGame/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2020.10.12-23.08.24:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2020.10.12-23.08.24:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../GitHub/MazeGame/Content/StarterContent/Maps/Minimal_Default.umap"
-[2020.10.12-23.08.24:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2020.10.12-23.08.25:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../GitHub/MazeGame/Content/StarterContent/Maps/StarterMap.umap"
-[2020.10.12-23.08.25:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2020.10.12-23.08.25:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2020.10.12-23.08.25:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2020.10.12-23.08.25:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2020.10.12-23.08.26:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2020.10.12-23.08.26:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2020.10.12-23.08.26:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2020.10.12-23.08.26:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2020.10.12-23.08.26:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2020.10.12-23.08.26:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2020.10.12-23.08.26:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2020.10.12-23.08.26:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2020.10.12-23.08.26:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2020.10.12-23.08.26:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2020.10.12-23.08.26:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2020.10.12-23.08.26:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2020.10.12-23.08.26:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2020.10.12-23.08.26:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2020.10.12-23.08.26:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Glass.uasset"
-[2020.10.12-23.08.26:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2020.10.12-23.08.26:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2020.10.12-23.08.26:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2020.10.12-23.08.26:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2020.10.12-23.08.26:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2020.10.12-23.08.26:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2020.10.12-23.08.26:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2020.10.12-23.08.26:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2020.10.12-23.08.26:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2020.10.12-23.08.26:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2020.10.12-23.08.26:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2020.10.12-23.08.26:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2020.10.12-23.08.26:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2020.10.12-23.08.26:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2020.10.12-23.08.26:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2020.10.12-23.08.26:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2020.10.12-23.08.26:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2020.10.12-23.08.26:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2020.10.12-23.08.26:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2020.10.12-23.08.26:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2020.10.12-23.08.26:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2020.10.12-23.08.26:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2020.10.12-23.08.26:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2020.10.12-23.08.26:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2020.10.12-23.08.26:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2020.10.12-23.08.26:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2020.10.12-23.08.26:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/P_Explosion.uasset"
-[2020.10.12-23.08.26:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/P_Fire.uasset"
-[2020.10.12-23.08.26:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/P_Smoke.uasset"
-[2020.10.12-23.08.26:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/P_Sparks.uasset"
-[2020.10.12-23.08.26:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2020.10.12-23.08.26:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2020.10.12-23.08.26:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2020.10.12-23.08.26:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2020.10.12-23.08.26:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2020.10.12-23.08.26:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2020.10.12-23.08.26:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2020.10.12-23.08.26:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2020.10.12-23.08.26:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2020.10.12-23.08.26:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2020.10.12-23.08.26:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2020.10.12-23.08.26:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/MaterialSphere.uasset"
-[2020.10.12-23.08.26:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Bush.uasset"
-[2020.10.12-23.08.26:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Chair.uasset"
-[2020.10.12-23.08.26:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2020.10.12-23.08.26:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Couch.uasset"
-[2020.10.12-23.08.26:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Door.uasset"
-[2020.10.12-23.08.26:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2020.10.12-23.08.26:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2020.10.12-23.08.26:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2020.10.12-23.08.26:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2020.10.12-23.08.26:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2020.10.12-23.08.26:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2020.10.12-23.08.26:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2020.10.12-23.08.26:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Rock.uasset"
-[2020.10.12-23.08.26:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Shelf.uasset"
-[2020.10.12-23.08.26:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Stairs.uasset"
-[2020.10.12-23.08.26:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_Statue.uasset"
-[2020.10.12-23.08.26:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_TableRound.uasset"
-[2020.10.12-23.08.26:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2020.10.12-23.08.26:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2020.10.12-23.08.26:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2020.10.12-23.08.26:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2020.10.12-23.08.26:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2020.10.12-23.08.26:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2020.10.12-23.08.26:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2020.10.12-23.08.26:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2020.10.12-23.08.26:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2020.10.12-23.08.26:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2020.10.12-23.08.26:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2020.10.12-23.08.26:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2020.10.12-23.08.26:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2020.10.12-23.08.26:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2020.10.12-23.08.26:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2020.10.12-23.08.26:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2020.10.12-23.08.26:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2020.10.12-23.08.26:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2020.10.12-23.08.26:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2020.10.12-23.08.26:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2020.10.12-23.08.26:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2020.10.12-23.08.26:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2020.10.12-23.08.26:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2020.10.12-23.08.26:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2020.10.12-23.08.26:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2020.10.12-23.08.26:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2020.10.12-23.08.26:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2020.10.12-23.08.26:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2020.10.12-23.08.26:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2020.10.12-23.08.26:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2020.10.12-23.08.26:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2020.10.12-23.08.26:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2020.10.12-23.08.26:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2020.10.12-23.08.26:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2020.10.12-23.08.27:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2020.10.12-23.08.27:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2020.10.12-23.08.27:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2020.10.12-23.08.27:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2020.10.12-23.08.28:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2020.10.12-23.08.28:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2020.10.12-23.08.28:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2020.10.12-23.08.28:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2020.10.12-23.08.28:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2020.10.12-23.08.29:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2020.10.12-23.08.29:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2020.10.12-23.08.29:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2020.10.12-23.08.29:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2020.10.12-23.08.29:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2020.10.12-23.08.29:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2020.10.12-23.08.29:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2020.10.12-23.08.29:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2020.10.12-23.08.29:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2020.10.12-23.08.29:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2020.10.12-23.08.30:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2020.10.12-23.08.30:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2020.10.12-23.08.30:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2020.10.12-23.08.30:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2020.10.12-23.08.30:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2020.10.12-23.08.31:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2020.10.12-23.08.31:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2020.10.12-23.08.31:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2020.10.12-23.08.31:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2020.10.12-23.08.31:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2020.10.12-23.08.32:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2020.10.12-23.08.32:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2020.10.12-23.08.32:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2020.10.12-23.08.32:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2020.10.12-23.08.32:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2020.10.12-23.08.33:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2020.10.12-23.08.33:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2020.10.12-23.08.33:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2020.10.12-23.08.33:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Door_M.uasset"
-[2020.10.12-23.08.33:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Door_N.uasset"
-[2020.10.12-23.08.33:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2020.10.12-23.08.33:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2020.10.12-23.08.33:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2020.10.12-23.08.33:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2020.10.12-23.08.33:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2020.10.12-23.08.33:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2020.10.12-23.08.33:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2020.10.12-23.08.33:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2020.10.12-23.08.34:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2020.10.12-23.08.34:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2020.10.12-23.08.35:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2020.10.12-23.08.35:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2020.10.12-23.08.35:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2020.10.12-23.08.36:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2020.10.12-23.08.36:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2020.10.12-23.08.36:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2020.10.12-23.08.37:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2020.10.12-23.08.37:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2020.10.12-23.08.38:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2020.10.12-23.08.38:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2020.10.12-23.08.38:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2020.10.12-23.08.39:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2020.10.12-23.08.39:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2020.10.12-23.08.39:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2020.10.12-23.08.39:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2020.10.12-23.08.39:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2020.10.12-23.08.39:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2020.10.12-23.08.39:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2020.10.12-23.08.39:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2020.10.12-23.08.39:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2020.10.12-23.08.40:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2020.10.12-23.08.41:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2020.10.12-23.08.41:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2020.10.12-23.08.41:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2020.10.12-23.08.41:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2020.10.12-23.08.42:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2020.10.12-23.08.42:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2020.10.12-23.08.42:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2020.10.12-23.08.42:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2020.10.12-23.08.42:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2020.10.12-23.08.42:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2020.10.12-23.08.42:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2020.10.12-23.08.42:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2020.10.12-23.08.42:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2020.10.12-23.08.42:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2020.10.12-23.08.42:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2020.10.12-23.08.43:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2020.10.12-23.08.43:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2020.10.12-23.08.43:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2020.10.12-23.08.43:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2020.10.12-23.08.43:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2020.10.12-23.08.43:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Water_M.uasset"
-[2020.10.12-23.08.43:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Water_N.uasset"
-[2020.10.12-23.08.43:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2020.10.12-23.08.43:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2020.10.12-23.08.43:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2020.10.12-23.08.43:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2020.10.12-23.08.43:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2020.10.12-23.08.43:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2020.10.12-23.08.44:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2020.10.12-23.08.44:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2020.10.12-23.08.44:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../GitHub/MazeGame/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2020.10.12-23.08.44:953][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2020.10.12-23.08.44:961][  0]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2020.10.12-23.08.45:546][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2020.10.12-23.08.46:377][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2020.10.12-23.08.46:473][  0]LogSavePackage: Moving '../../../../../GitHub/MazeGame/Saved/Floor_400x4007667CFFF4FC0FD19B34C1FBD0CC061C5.tmp' to '../../../../../GitHub/MazeGame/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2020.10.12-23.08.46:504][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2020.10.12-23.08.46:508][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/MazeGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.12-23.08.46:516][  0]LightingResults: New page: Lighting Build
-[2020.10.12-23.08.46:705][  0]MapCheck: New page: Map Check
-[2020.10.12-23.08.46:705][  0]LightingResults: New page: Lighting Build
-[2020.10.12-23.08.49:021][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.10.12-23.08.49:724][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2020.10.12-23.08.49:917][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.12-23.08.50:056][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 139,023ms to complete.
-[2020.10.12-23.08.50:058][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.553
-[2020.10.12-23.08.54:084][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-23.08.54:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-23.08.54:209][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-23.08.54:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.12-23.08.54:769][  0]LogCollectionManager: Loaded 0 collections in 0.001147 seconds
-[2020.10.12-23.08.55:748][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Saved/Collections/' took 0.01s
-[2020.10.12-23.08.55:748][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Content/Developers/belee/Collections/' took 0.01s
-[2020.10.12-23.08.55:748][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Content/Collections/' took 0.01s
-[2020.10.12-23.08.55:748][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.10.12-23.08.55:966][  0]LogContentBrowser: Native class hierarchy populated in 0.1291 seconds. Added 2572 classes and 603 folders.
-[2020.10.12-23.08.56:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.12-23.08.59:558][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.12-23.09.00:366][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.10.12-23.09.01:955][  0]LogSlate: Took 0.072629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.12-23.09.01:989][  0]LogSlate: Took 0.024645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.12-23.09.02:197][  0]LogSlate: Took 0.050179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.12-23.09.03:133][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2020.10.12-23.09.04:384][  0]LogSlate: Took 0.087481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.12-23.09.04:925][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.10.12-23.09.05:083][  0]LogSlate: Window 'Tutorials' being destroyed
-[2020.10.12-23.09.05:311][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.12-23.09.05:312][  0]LogLoad: (Engine Initialization) Total time: 84.13 seconds
-[2020.10.12-23.09.05:312][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.12-23.09.06:033][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.12-23.09.07:213][  3]LogAssetRegistry: Asset discovery search completed in 73.9409 seconds
-[2020.10.12-23.09.07:246][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2020.10.12-23.09.07:246][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.031990 seconds (updated 0 objects)
-[2020.10.12-23.09.14:391][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.20-12.21.18:973][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.20-12.21.18:974][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.20-12.21.19:035][  0]LogHAL: Display: Platform has ~ 8 GB [8445386752 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.20-12.21.19:036][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.10.20-12.21.19:036][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.20-12.21.19:057][  0]LogInit: Computer: DESKTOP-RHMTELH
+[2020.10.20-12.21.19:057][  0]LogInit: User: belee
+[2020.10.20-12.21.19:057][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.20-12.21.19:057][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.20-12.21.19:058][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.10.20-12.21.19:058][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.20-12.21.19:058][  0]LogMemory: Process Physical Memory: 100.84 MB used, 100.84 MB peak
+[2020.10.20-12.21.19:058][  0]LogMemory: Process Virtual Memory: 83.97 MB used, 83.97 MB peak
+[2020.10.20-12.21.19:058][  0]LogMemory: Physical Memory: 6874.86 MB used,  1179.29 MB free, 8054.15 MB total
+[2020.10.20-12.21.19:058][  0]LogMemory: Virtual Memory: 4602.94 MB used,  1179.29 MB free, 134217728.00 MB total
+[2020.10.20-12.21.19:532][  0]LogInit: Using OS detected language (pl-PL).
+[2020.10.20-12.21.19:532][  0]LogInit: Using OS detected locale (pl-PL).
+[2020.10.20-12.21.19:536][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2020.10.20-12.21.19:547][  0]LogStreaming: Display: Took  0.016s to InitEngineTextLocalization.
+[2020.10.20-12.21.19:549][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.20-12.21.19:697][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.20-12.21.19:697][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.20-12.21.20:978][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.20-12.21.20:978][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.20-12.21.21:218][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.10.20-12.21.21:218][  0]LogD3D11RHI:       4021/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.20-12.21.21:254][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.10.20-12.21.21:254][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.20-12.21.21:264][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.20-12.21.21:264][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.20-12.21.21:264][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.20-12.21.21:317][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.20-12.21.21:319][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.10.20-12.21.21:319][  0]LogWindows: EnumDisplayDevices:
+[2020.10.20-12.21.21:319][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.10.20-12.21.21:319][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.10.20-12.21.21:320][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.10.20-12.21.21:320][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.20-12.21.21:320][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.10.20-12.21.21:320][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.20-12.21.21:320][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.20-12.21.21:320][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2020.10.20-12.21.21:415][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.20-12.21.21:471][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.20-12.21.21:483][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../GitHub/MazeGame/Intermediate/Shaders/WorkingDirectory/26460/).
+[2020.10.20-12.21.21:484][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/belee/AppData/Local/Temp/UnrealShaderWorkingDir/45B202C9498BEF8173FB669FBBC4E721/'.
+[2020.10.20-12.21.22:055][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.10.20-12.21.22:075][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.10.20-12.21.22:093][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.10.20-12.21.22:114][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.10.20-12.21.22:137][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.10.20-12.21.22:165][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.10.20-12.21.22:185][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.10.20-12.21.22:213][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.10.20-12.21.22:237][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.20-12.21.22:377][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.10.20-12.21.22:467][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.10.20-12.21.22:467][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.10.20-12.21.22:502][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.10.20-12.21.22:502][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.10.20-12.21.22:530][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.10.20-12.21.22:550][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.10.20-12.21.22:570][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.10.20-12.21.22:593][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.10.20-12.21.22:610][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.10.20-12.21.22:610][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.20-12.21.22:876][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.20-12.21.22:876][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.20-12.21.22:876][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.20-12.21.24:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.20-12.21.25:776][  0]LogDerivedDataCache: Loaded boot cache 0.97s 71MB C:/Users/belee/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.10.20-12.21.25:778][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/belee/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.10.20-12.21.25:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/MazeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.20-12.21.25:780][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.20-12.21.25:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/MazeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.20-12.21.25:780][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.20-12.21.25:828][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.20-12.21.25:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/belee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.20-12.21.25:844][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.20-12.21.25:845][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.20-12.21.25:892][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.20-12.21.25:895][  0]LogSlate: Using FreeType 2.6.0
+[2020.10.20-12.21.25:898][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.20-12.21.26:231][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2020.10.20-12.21.27:534][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.20-12.21.27:929][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.10.20-12.21.27:968][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.10.20-12.21.27:969][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.20-12.21.27:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.20-12.21.27:987][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.10.20-12.21.28:088][  0]LogNetVersion: MazeGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 803854447)
+[2020.10.20-12.21.29:290][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.220968 seconds
+[2020.10.20-12.21.29:316][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.10.20-12.21.29:316][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.10.20-12.21.29:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.20-12.21.33:619][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.20-12.21.33:636][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.20-12.21.33:968][  0]SourceControl: Source control is disabled
+[2020.10.20-12.21.33:968][  0]SourceControl: Source control is disabled
+[2020.10.20-12.21.33:984][  0]SourceControl: Source control is disabled
+[2020.10.20-12.21.34:002][  0]SourceControl: Source control is disabled
+[2020.10.20-12.21.34:514][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.20-12.21.34:724][  0]LogOcInput: OculusInput pre-init called
+[2020.10.20-12.21.34:864][  0]LogEngine: Initializing Engine...
+[2020.10.20-12.21.34:867][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.20-12.21.34:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.10.20-12.21.34:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.20-12.21.34:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.10.20-12.21.34:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.20-12.21.35:376][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.20-12.21.35:407][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.20-12.21.35:440][  0]LogInit: XAudio2 using 'Głośniki / Słuchawki (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.20-12.21.35:706][  0]LogInit: FAudioDevice initialized.
+[2020.10.20-12.21.35:706][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.20-12.21.35:810][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/belee/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.10.20-12.21.35:812][  0]LogInit: Texture streaming: Enabled
+[2020.10.20-12.21.35:851][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.20-12.21.35:899][  0]LogInit: Transaction tracking system initialized
+[2020.10.20-12.21.35:948][  0]BlueprintLog: New page: Editor Load
+[2020.10.20-12.21.36:132][  0]LocalizationService: Localization service is disabled
+[2020.10.20-12.21.36:649][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Content/' took 0.03s
+[2020.10.20-12.21.36:649][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.20-12.21.36:649][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.20-12.21.36:650][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.10.20-12.21.36:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.10.20-12.21.36:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.20-12.21.36:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.10.20-12.21.36:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.20-12.21.37:920][  0]SourceControl: Source control is disabled
+[2020.10.20-12.21.37:920][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/MazeGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.20-12.21.37:921][  0]LightingResults: New page: Lighting Build
+[2020.10.20-12.21.37:927][  0]MapCheck: New page: Map Check
+[2020.10.20-12.21.37:927][  0]LightingResults: New page: Lighting Build
+[2020.10.20-12.21.40:384][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.20-12.21.40:448][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.20-12.21.40:478][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-12.21.40:564][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85,03ms to complete.
+[2020.10.20-12.21.40:564][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.644
+[2020.10.20-12.21.41:236][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-12.21.41:251][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-12.21.41:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-12.21.41:276][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.20-12.21.41:340][  0]LogCollectionManager: Loaded 0 collections in 0.001395 seconds
+[2020.10.20-12.21.41:454][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Saved/Collections/' took 0.01s
+[2020.10.20-12.21.41:454][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Content/Developers/belee/Collections/' took 0.02s
+[2020.10.20-12.21.41:454][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/MazeGame/Content/Collections/' took 0.01s
+[2020.10.20-12.21.41:454][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.10.20-12.21.41:473][  0]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2572 classes and 603 folders.
+[2020.10.20-12.21.41:538][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.20-12.21.42:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.20-12.21.42:908][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.10.20-12.21.43:471][  0]LogSlate: Took 0.021465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.20-12.21.43:486][  0]LogSlate: Took 0.011973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.20-12.21.43:540][  0]LogSlate: Took 0.023006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.20-12.21.44:067][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2020.10.20-12.21.44:592][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.20-12.21.44:592][  0]LogLoad: (Engine Initialization) Total time: 35.39 seconds
+[2020.10.20-12.21.44:592][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.20-12.21.44:640][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.20-12.21.44:885][  0]LogSlate: Took 0.016754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.20-12.21.45:274][  3]LogAssetRegistry: Asset discovery search completed in 19.0657 seconds
+[2020.10.20-12.21.45:275][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.10.20-12.21.45:275][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2020.10.20-12.21.46:319][  6]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.20-12.22.44:094][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.10.20-12.22.45:623][393]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.10.20-12.22.53:865][531]Cmd: MAP LOAD FILE="../../../../../GitHub/MazeGame/Content/StarterContent/Maps/MainAgnieszkaBonislawska.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.20-12.22.53:940][531]LightingResults: New page: Lighting Build
+[2020.10.20-12.22.53:941][531]LoadErrors: New page: Loading map: MainAgnieszkaBonislawska.umap
+[2020.10.20-12.22.53:970][531]MapCheck: New page: Map Check
+[2020.10.20-12.22.53:970][531]LightingResults: New page: Lighting Build
+[2020.10.20-12.22.54:223][531]LogAIModule: Creating AISystem for world MainAgnieszkaBonislawska
+[2020.10.20-12.22.54:303][531]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.20-12.22.54:377][531]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.20-12.22.54:450][531]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72,829ms to complete.
+[2020.10.20-12.22.54:450][531]LogFileHelpers: Loading map 'MainAgnieszkaBonislawska' took 0.590
+[2020.10.20-12.22.54:468][531]LogSlate: Window 'Open Level' being destroyed
+[2020.10.20-12.23.03:804][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.20-12.23.22:687][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
